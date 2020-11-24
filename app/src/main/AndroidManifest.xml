@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.telephony">
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MessageClass"></activity>
+        <activity android:name=".CallClass"></activity>
+        <activity android:name=".MessageClass2"></activity>
+        <activity android:name=".CallClass2"></activity>
+        <activity android:name=".MessageClass3"></activity>
+        <activity android:name=".CallClass3"></activity>
+        <activity android:name=".MessageClass4"></activity>
+        <activity android:name=".CallClass4"></activity>
+        <activity android:name=".MessageClass5"></activity>
+        <activity android:name=".CallClass5"></activity>
+
+    </application>
+
+</manifest>
